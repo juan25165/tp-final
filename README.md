@@ -23,7 +23,15 @@ Se integra el [Proyecto Frontend](https://github.com/JavierSalguero/Proyecto-Fin
    `activate `
 5. Regresar a la primer carpeta con `cd..`
 6. Instalar Flask: `pip install Flask`
-7. Para **ejecutar el servidor** ingresar a la carpeta del proyecto y tipear: `python manage.py runserver` si queremos **detener el servidor** presionamos _Ctrol + C_ y si deseamos **detener el entorno virtual**, hay que escribir: `deactivate` desde cualquier carpeta.
+7. Instalar blinker: `pip install blinker`
+8. Instalar click: `pip install click`
+9. Instalar colorama: `pip install colorama`
+10. Instalar itsdangerous: `pip install itsdangerous`
+11. Instalar Jinja2: `pip install Jinja2`
+12. Instalar MarkupSafe: `pip install MarkupSafe`
+13. Instalar PyMySQL: `pip install PyMySQL`
+14. Instalar Werkzeug: `pip install Werkzeug`
+15. Para **ejecutar el servidor** ingresar a la carpeta del proyecto y tipear: `python manage.py runserver` si queremos **detener el servidor** presionamos _Ctrol + C_ y si deseamos **detener el entorno virtual**, hay que escribir: `deactivate` desde cualquier carpeta.
 
 ## Requisitos
 
