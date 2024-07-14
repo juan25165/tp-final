@@ -25,6 +25,18 @@ Se integra el [Proyecto Frontend](https://github.com/JavierSalguero/Proyecto-Fin
 6. Instalar Flask: `pip install Flask`
 7. Para **ejecutar el servidor** ingresar a la carpeta del proyecto y tipear: `python manage.py runserver` si queremos **detener el servidor** presionamos _Ctrol + C_ y si deseamos **detener el entorno virtual**, hay que escribir: `deactivate` desde cualquier carpeta.
 
+## Requisitos
+
+- blinker==1.8.2
+- click==8.1.7
+- colorama==0.4.6
+- Flask==3.0.3
+- itsdangerous==2.2.0
+- Jinja2==3.1.4
+- MarkupSafe==2.1.5
+- PyMySQL==1.1.1
+- Werkzeug==3.0.3
+
 ---
 
 ### Consignas solicitadas
