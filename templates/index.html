@@ -1,0 +1,172 @@
+{% include 'defaults/head.html' %}
+{% include 'defaults/header.html' %}
+
+<body>
+
+    <div class="secciones">
+
+        <main>
+            <div class="cuerpo-index">
+                <img class="img-fluid" src="../static/img/Illustration2.png" alt="this is a cartoon style image where there is a woman with one hand on a dog and the other holding a dog care product."">
+                <section class="seccion1">
+                    <h2 class="format">¡GUAU!</h2>
+                    <p class="format2" >
+                        Aqui los cuidamos <br><br>
+                        En nuestra tienda, brindamos todo lo que necesitas 
+                        para cuidar a tus compañeros. 
+                        Golosinas, camas y juguetes,
+                        todo lo que tu mascota necesita.</p>
+                    </section>
+                </div>
+                
+            </main>
+
+            <main>
+                <div class="cuerpo-index5">
+                    <div>
+                        <h2 class="format">EQUIPAMIENTO DE <br>ÚLTIMA TECNOLOGÍA</h2>
+                        <p  class="format3">
+                            Disponemos de últimas tecnologías
+                             en diagnóstico y tratamiento de todo tipo de
+                         urgencias veterinarias.
+                        </p>
+                        <br>
+                        <button onclick="mostrarAlerta()" type="button" class="btn btn-primary">¡No dude en contactarnos!</button>
+                    </div>
+     
+            
+            
+        </main>
+            <main>
+                <div class="cuerpo-index4">
+                    <div>
+                        <img src="../static/img/c.jpg" alt="veterinario con un gato y un perro">
+                    </div>
+                    
+                    <div>
+                        <br>
+                    
+                            <br>
+                            <h2 class="format">URGENCIAS</h2>
+                            <br>
+    
+                            <p  class="format3">
+                            Nuestro equipo de expertos te brinda cortes de pelo, 
+                            cuidado de uñas y oídos para una higiene completa. 
+                            Todo en un ambiente donde tu mascota se sentirá segura
+                            y feliz.
+                            
+                        </p>
+                    <
+                        
+                        <button onclick="mostrarAlerta()" type="button" class="btn btn-primary">PEDIR TURNO</button>
+                    </div>
+                </div>
+            </main>
+
+
+            
+            <main>
+                <div class="cuerpo-index3">
+                    
+                    <div>
+                        <br>
+                        <br>
+                        <h2 class="format">EQUIPAMIENTO DE ÚLTIMA TECNOLOGÍA</h2>
+                        <p  class="format3">
+                            ¡Atención veterinaria 24 horas! <br>
+                            Su mascota está en buenas manos,
+                            ofrecemos un servicio de urgencias veterinarias
+                            las 24 horas del día, los 365 días del año.
+                        </p>
+                        
+                        <button onclick="mostrarAlerta()" type="button" class="btn btn-primary">¡No dude en contactarnos!</button>
+                    </div>
+                    <div>
+                        <img src="../static/img/g.jpg" alt="veterinario con un gato y un perro">
+                    </div>
+                </div>
+            </main>
+
+        <main>
+            <div class="cuerpo-index4">
+                <div>
+                    <img src="../static/img/f.jpg" alt="veterinario con un gato y un perro">
+                </div>
+                
+                <div>
+                    <br>
+                    
+                        <br>
+                        <h2 class="format">PELUQUERÍA</h2>
+                        <br>
+
+                        <p  class="format3">
+                        Nuestro equipo de expertos te brinda cortes de pelo, 
+                        cuidado de uñas y oídos para una higiene completa. 
+                        Todo en un ambiente donde tu mascota se sentirá segura
+                        y feliz.
+                        
+                    </p>
+                
+                    
+                    <button onclick="mostrarAlerta()" type="button" class="btn btn-primary">PEDIR TURNO</button>
+                </div>
+            </div>
+        </main>
+        
+
+        <main>
+            <div class="cuerpo-index5">
+                
+                <div>
+                    <br>
+                    <br>
+                    <h2 class="format">24 HORAS A TU DISPOSICIÓN</h2>
+                    <p  class="format3">
+                        Estamos aquí para ayudarte las 24 horas del día, 7 días de la semana
+                    </p>
+                    
+                    <br>
+                    <button onclick="mostrarAlerta()" type="button" class="btn btn-primary">¡No dude en contactarnos!</button>
+                </div>
+                <div>
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../static/img/aa.jpg" class="d-block w-75" alt="perro y gato juntos">
+                            </div>
+                              <div class="carousel-item">
+                                <img src="../static/img/bb.jpg" class="d-block w-75" alt="gato">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="../static/img/cc.jpg" class="d-block w-75" alt="perro en el parque">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        
+    </main>
+</div>
+    
+    <script class="swal" >
+        function mostrarAlerta() {
+            Swal.fire({
+                title: '¡LLAMANOS! <br>  987-654-321  <br> ☎️',
+                icon: 'success',
+                background: 'orange'
+            })
+        }
+        </script>
+        
+        
+        <!-- <script src="./js.js"></script> -->
+        {% include 'defaults/footer.html' %}
+        
+    </body>
+    
+    </html>

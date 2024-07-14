@@ -1,0 +1,30 @@
+.registro {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 228px;
+}
+
+.registro h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #2e7a27;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.registro p {
+    margin: 0 auto;
+    color:black;
+    font-weight: 500;
+}
+
+.button-volver {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

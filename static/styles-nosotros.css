@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(to bottom, #007bff, #28a745);
+}
+
+.nosotros {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotros-contenido{
+    text-align: center;
+}
+
+.nosotros-contenido h2 {
+    margin-top: 50px;
+}
+
+.nosotros-contenido p {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,67 @@
+body{
+    background-image: url(./img/park3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body p{
+    color: #515151;
+}
+
+.categoria img{
+    width: 250px;
+}
+
+.categoria {
+    margin-top: 100px;
+    width: 90%;
+    margin-bottom: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.categoria h2 {
+    display: inline-block;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.categoria-contenido {
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categoria-contenido img{
+    justify-content: center;
+}
+
+
+@media (max-width: 1200px) {
+    .producto {
+        width: calc(100% / 2 - 40px); /* For tablets */
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .categoria-contenido {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .producto {
+        width: 90%; /* For mobile phones */
+    }
+}
+
+@media (max-width: 480px) {
+    .categoria h2 {
+        margin-right: 0;
+        width: 100%;
+    }
+}

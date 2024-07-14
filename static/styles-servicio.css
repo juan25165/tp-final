@@ -1,0 +1,40 @@
+.service {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.service-titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+.servicio-contenido {
+    display: flex;
+}
+
+.item-posicion {
+    display: flex;
+}
+
+.service-item {
+    width: 45%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.capa p {
+    font-size: 15px;
+}
+
+.pelu h3, p {
+    margin-top: 38px;
+}
+
+.nutricion {
+    margin-top: 15px;
+}
