@@ -14,8 +14,8 @@ Deploy [Deploy del Proyecto Frontend](https://damiangperez.github.io/DamianGPere
 
 ## Instrucciones para trabajar con el proyecto localmente
 
-1. Crear la carpeta que contendrá el proyecto y el entorno virtual.
-2. Forkear el proyecto y luego clonarlo con: `git clone url-proyecto-forkeado` dentro de dicha carpeta.
+1. Crear la carpeta que contendrá el proyecto y el entorno virtual
+2. Forkear el proyecto y luego clonarlo con: `git clone url-proyecto-forkeado` dentro de dicha carpeta
 3. Abrir una **terminal command prompt**, ubicarse en la carpeta recientemente creada y preparar el entorno virtual: `python -m venv nombre-del-entorno`
 4. Ingresar a la carpeta del entorno y luego al sub-directorio Scripts para activarlo:
    `cd nombre-del-entorno`
@@ -23,17 +23,17 @@ Deploy [Deploy del Proyecto Frontend](https://damiangperez.github.io/DamianGPere
    `activate `
 5. Regresar a la primer carpeta con `cd..`
 6. Instalar Flask: `pip install Flask`
-7. Para **ejecutar el servidor** ingresar a la carpeta del proyecto y tipear: `python manage.py runserver`. Si queremos **detener el servidor** presionamos _Ctrol + C_ y si deseamos **detener el entorno virtual**, hay que escribir: `deactivate` desde cualquier carpeta.
+7. Para **ejecutar el servidor** ingresar a la carpeta del proyecto y tipear: `python manage.py runserver` si queremos **detener el servidor** presionamos _Ctrol + C_ y si deseamos **detener el entorno virtual**, hay que escribir: `deactivate` desde cualquier carpeta.
 
 ---
 
 ### Consignas solicitadas
 
-- [x] La base de datos debe desarrollarse en lenguaje SQL.
-- [x] A través del front se debe poder realizar al menos un tipo de alta. (POST)
-- [x] De la misma forma se debe poder realizar modificaciones de los registros.
+- [x] La base de datos debe desarrollarse en lenguaje SQL
+- [x] A través del front se debe poder realizar al menos un tipo de alta (POST)
+- [x] De la misma forma se debe poder realizar modificaciones de los registros
 - [x] Se debe poder acceder a los registros de la tabla (GET)
-- [x] Se debe poder realizar borrado físico de los datos. (DELETE)
-- [x] El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de Git. (Obligatorio)
-- [x] La página deberá subirse a un servidor on-line para poder ser navegada. (Obligatorio)
-- [x] El backend debe estar integrado con un frontend.
+- [x] Se debe poder realizar borrado físico de los datos (DELETE)
+- [x] El trabajo práctico deberá subirse a un servidor online y compartirse mediante un repositorio de Git (Obligatorio)
+- [x] La página deberá subirse a un servidor on-line para poder ser navegada (Obligatorio)
+- [x] El backend debe estar integrado con un frontend
