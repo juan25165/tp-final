@@ -16,7 +16,7 @@ Se integra el [Proyecto Frontend](https://github.com/JavierSalguero/Proyecto-Fin
 
 1. Crear la carpeta que contendrá el proyecto y el entorno virtual
 2. Forkear el proyecto y luego clonarlo con: `git clone url-proyecto-forkeado` dentro de dicha carpeta
-3. Abrir una **terminal command prompt**, ubicarse en la carpeta recientemente creada y preparar el entorno virtual: `python -m venv nombre-del-entorno`
+3. Abrir una **terminal command prompt**, ubicarse en la carpeta creada y preparar el entorno virtual: `python -m venv nombre-del-entorno`
 4. Ingresar a la carpeta del entorno y luego al sub-directorio Scripts para activarlo:
    `cd nombre-del-entorno`
    `cd Scripts`
