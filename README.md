@@ -1,5 +1,4 @@
-# Codo a Codo - Proyecto Integrador Final - Backend: 
-Tienda de Mascotas
+# Codo a Codo Proyecto Integrador Final Backend: Tienda de Mascotas
 
 ## Equipo de Desarrollo - Grupo 3
 
