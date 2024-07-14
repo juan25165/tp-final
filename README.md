@@ -9,7 +9,7 @@
 
 ## Descripción
 
-Se integra el [Proyecto Frontend](https://github.com/JavierSalguero/Proyecto-Final-Grupo-3.github.io) al Proyecto Backend desarrollado mediante el uso del framework Flask en la segunda etapa del curso. El sitio creado en un principio de trata en una **web responsive** perteneciente a una Tienda de Mascotas.
+Se integra el [Proyecto Frontend](https://github.com/JavierSalguero/Proyecto-Final-Grupo-3.github.io) al Backend desarrollado mediante el uso del framework Flask en la segunda etapa del curso. El sitio creado en la primera etapa se trata de una **web responsive** sobre una Tienda de Mascotas.
  [Deploy del Proyecto Frontend](https://damiangperez.github.io/DamianGPerez-Codo-Codo-4.1-Proyecto-Final/)
 
 ## Instrucciones para trabajar con el proyecto localmente
