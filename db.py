@@ -1,8 +1,3 @@
-# pip install pymysql
-# pip freeze > requirements.txt
-# pip install -r requirements.txt
-# conectar bbdd -> host, user, pass, db
-
 import pymysql
 
 # local -> wamp

@@ -7,9 +7,6 @@ app = Flask(__name__)
 # home
 @app.route("/")
 def dataHome():
-    #title = "Hola Mundo!"
-    # return render_template("plantilla.html",datos)
-    #return render_template('index.html',titulo=title,users=users)
     return render_template('index.html')
 
 @app.route('/nosotros')
