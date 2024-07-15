@@ -1,5 +1,6 @@
 from flask import Flask,render_template
 from dataUser import *
+from controller_db import conexionMySQL
 
 
 app = Flask(__name__)
@@ -24,9 +25,10 @@ def servicios():
 
 @app.route('/contacto')
 def contacto():
-    return render_template("contacto.html")
+    conexion = conexionMySQL()
+    return render_template("contacto.html", conexion=conexion)
 
-@app.route('/registro-exitoso')
+@app.route('/registroexitoso')
 def registro():
-    return render_template("registro-exitoso.html")
+    return render_template("registroexitoso.html")
 
