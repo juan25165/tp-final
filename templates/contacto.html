@@ -2,29 +2,19 @@
 {% include 'defaults/header.html' %}
 
 <body>
-
   <main>
-
     <div class="contact_form">
-
       <br><br>
       <h2 class="format">Escríbenos y en breve nos pondremos <br>en contacto con usted</h2>
       <br><br>
       <div> conexion {{conexion}} </div>
-
       <div class="formulario format2">
-
-        <div id="mensajeError" style="display: none; background-color: #ffcccc; padding: 10px; margin-bottom: 10px;">
-        </div>
-
-        <form id="miFormulario" action="/guardar_formulario" method="POST">
-
+        <div id="mensajeError" style="display: none; background-color: #ffcccc; padding: 10px; margin-bottom: 10px;"></div>
+        <form id="miFormulario" action="/registroexitoso" method="GET">
           <p class="aviso">
             <span class="obligatorio">*</span> Los campos marcados son obligatorios.
           </p>
-
           <div class="campos">
-
             <p>
               <label for="nombre" class="colocar_nombre" name="nombre">Nombre
                 <span class="obligatorio">*</span>
@@ -32,7 +22,6 @@
               <br>
               <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
             </p>
-
             <p>
               <label for="apellido" class="colocar_apellido">Apellido
                 <span class="obligatorio">*</span>
@@ -40,7 +29,6 @@
               <br>
               <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
             </p>
-
             <p>
               <label for="email" class="colocar_email">Email
                 <span class="obligatorio">*</span>
@@ -48,7 +36,6 @@
               <br>
               <input type="email" name="email" id="email" placeholder="Escribe tu Email">
             </p>
-
             <p>
               <label for="telefono" class="colocar_telefono">Teléfono
                 <span class="obligatorio">*</span>
@@ -56,36 +43,28 @@
               <br>
               <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu teléfono">
             </p>
-
             <p>
               <label for="asunto" class="colocar_asunto">Asunto</label>
               <br>
               <input type="text" name="asunto" id="asunto" placeholder="Escribe un asunto">
             </p>
-
             <p>
               <label for="mensaje" class="colocar_mensaje">Mensaje</label>
               <br>
-              <textarea name="mensaje" class="texto_mensaje" id="mensaje"
-                placeholder="Deja aquí tu comentario..."></textarea>
+              <textarea name="mensaje" class="texto_mensaje" id="mensaje" placeholder="Deja aquí tu comentario..."></textarea>
             </p>
-
             <input type="checkbox" name="datos_guardados" id="datos">
             <label style="color: white;" for="datos">Acepto recibir novedades y ofertas</label>
             <div>
-            <a href="/registroexitoso" class="btn btn-primary">Enviar</a>
-          </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
           </div>
         </form>
-
       </div>
     </div>
   </main>
 
   {% include 'defaults/footer.html' %}
-  <script src="js.js"></script>
-
-
+  <script src="{{ url_for('static', filename='js.js') }}"></script>
 </body>
-
 </html>

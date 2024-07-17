@@ -1,23 +1,9 @@
-// document.addEventListener("DOMContentLoaded", function() {
-//     window.addEventListener("load", function() {
-//         const loader = document.querySelector('.loader');
-//         const content = document.querySelector('.content');
-
-//         setTimeout(() => {
-//             loader.style.opacity = 0;
-//             loader.style.visibility = 'hidden';
-//             content.style.display = 'block';
-//         }, 2000); // Demora de 500ms para transición
-//     });
-// });
-
 function validarFormulario(event) {
     // Obtener referencias a los campos del formulario
     const nombre = document.getElementById('nombre');
     const apellido = document.getElementById('apellido');
     const email = document.getElementById('email');
-    const asunto = document.getElementById('asunto');
-    const mensaje = document.getElementById('mensaje');
+    const telefono = document.getElementById('telefono');  // Corrected missing telefono
 
     const mensajeError = document.getElementById('mensajeError');
 
@@ -27,9 +13,9 @@ function validarFormulario(event) {
         event.preventDefault();
         // Mostrar mensaje de error
         mensajeError.textContent = 'Por favor, completa todos los campos obligatorios.';
-        mensajeError.style.display = 'block'
+        mensajeError.style.display = 'block';
     } else {
-        window.location.href = "registro-exitoso.html";
+        window.location.href = "registroexitoso.html";
     }
 }
 

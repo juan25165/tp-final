@@ -1,0 +1,31 @@
+{% include 'defaults/head.html' %}
+{% include 'defaults/header.html' %}
+
+<body>
+    <section class="categoria">
+        <h2 style="text-shadow: 3px 5px black; font-size: 350%; font-weight: 900;">Shopping Cart</h2>
+        <div class="categoria-contenido">
+            {% for item in items %}
+            <div class="card" style="width: 18rem; box-shadow: 5px 5px 10px black;">
+                <div class="card-body">
+                    <p class="card-text">Product ID: {{ item.product_id }}</p>
+                    <p class="card-text">Quantity: {{ item.quantity }}</p>
+                    <form action="{{ url_for('update_cart') }}" method="POST" style="display:inline-block;">
+                        <input type="hidden" name="product_id" value="{{ item.product_id }}">
+                        <input type="number" name="quantity" value="{{ item.quantity }}">
+                        <button type="submit" class="btn btn-primary">Update</button>
+                    </form>
+                    <form action="{{ url_for('remove_from_cart') }}" method="POST" style="display:inline-block;">
+                        <input type="hidden" name="product_id" value="{{ item.product_id }}">
+                        <button type="submit" class="btn btn-danger">Remove</button>
+                    </form>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <a href="{{ url_for('productos') }}" class="btn btn-primary" style="margin-top: 20px;">Continue Shopping</a>
+    </section>
+
+    {% include 'defaults/footer.html' %}
+</body>
+</html>
